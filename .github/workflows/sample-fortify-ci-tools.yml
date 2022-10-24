@@ -25,8 +25,8 @@ jobs:
         env: 
           FOD_AURL: ${{ secrets.FOD_EIGHTBALL_API_URL }}
           FOD_PURL: ${{ secrets.FOD_EIGHTBALL_BASE_URL }}
-          FOD_TENANT: ${{ secrets.FOD_EIGHTBALL_TENANT }}  
+          FOD_TENANT: emeademo
           FOD_USER: ${{ secrets.FOD_EIGHTBALL_USER }}
           FOD_PAT: ${{ secrets.FOD_EIGHTBALL_PAT }}
-          FOD_RELEASE_ID: "111547"
+          FOD_RELEASE_ID: 111547
           FOD_UPLOADER_OPTS: "-ep 2 -pp 0 -I 1 -apf"
